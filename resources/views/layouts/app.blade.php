@@ -24,7 +24,7 @@
         <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('app.name', 'Laravel') }}
+                    {{ config('app.name', 'Ikebana') }}
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
@@ -36,6 +36,7 @@
                             <li><a class="nav-link" href="{{ action('PagesController@info') }}">Informacion</a></li>
                             <li><a class="nav-link" href="/contacto">Contacto</a></li>
                             <li><a class="nav-link" href="{{ route('equipo') }}">Equipo</a></li>
+                            <li><a class="nav-link" href=/'docs'>Docs</a></li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->
